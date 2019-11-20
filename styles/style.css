@@ -1,0 +1,59 @@
+html {
+    font-size: 10px
+    font-family: 'Jomolhari', serif;
+    text-shadow: 2px 2px 2px white;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    width: 1189px;
+    height: auto;
+    background: white url('https://images.unsplash.com/photo-1534620783980-fa96320b0ce6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80, https://unsplash.com/photos/Oadvsf3xH9E') repeat center scroll;
+}
+
+  h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;    
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.justine, .jonathan {
+    color: black;
+    text-shadow: black;
+    text-align: center;
+}
+
+h2 {
+    font-size: 100px;
+    margin: 0 auto;
+    text-shadow: 3px 3px 3px black;
+}
+
+.justine{
+    float: left;
+    position: relative;
+    width: 550px;
+}
+
+.jonathan {
+    float: right;
+    position: relative;
+    width: 550px;
+}

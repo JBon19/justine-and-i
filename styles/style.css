@@ -1,43 +1,52 @@
 html {
-    font-family: 'Arvo', serif;
-    text-shadow: 2px 2px 2px white;
-    background-image: url("https://images.pexels.com/photos/450066/pexels-photo-450066.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=300&w=1260");
-
+    font-family: rockwell;
+    background-image: url("https://images.pexels.com/photos/132193/pexels-photo-132193.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 header {
-    background-color:#8b5c40;
     justify-content: center;
     align-content: center;
-    border-radius: 55px;
     margin: 20px 20px 0px 20px;
 }
 
-menu#men_main {
+.menu {
     font-size: 25px;
-    -webkit-text-fill-color: white;
+    font-family: Century Schoolbook;
+    -webkit-text-fill-color: whitesmoke;
     -webkit-text-stroke-width: .1px; 
-    text-shadow: 4px 4px 4px black;
+    text-shadow: 2px 2px 2px black;
     display: grid;
     width: auto;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 90px;
     justify-content: center;
-    align-items: center;
-    padding-left: 0px;
+    align-content: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 50px;
+} 
+
+a.menu {
+    display: flex;
+    text-align: center;
+    align-content: center;
 }
 
-.menu {
+/* .menu {
     display: inline-block;
+    font-family: 'Arvo', serif;
     position: relative;
     width: auto;
     font-size: 25px;
     font-family: century;
-    -webkit-text-fill-color: gray;
-    -webkit-text-stroke-width: .7px;
+    -webkit-text-fill-color: whitesmoke;
+    -webkit-text-stroke-width: .1px;
     -webkit-text-stroke-color: black; 
     text-shadow: 2px 2px 2px black;
-}
+    padding-left: 0px;
+} */
 
 ul {
     padding-left: 0px;
@@ -48,25 +57,63 @@ body {
     text-align: center;
     width: auto;
     height: 850px;
-    padding-bottom: 100px;  
-      
+    padding-bottom: 100px;    
 }
 
-  h1 {
+h1 {
     font-size: 60px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', serif;
     text-align: center;
     margin: 0;
-    /* padding: 20px 0;     */
-    color: grey;
+    color: white;
     text-shadow: 3px 3px 1px black;
 }
 
-p, li {
-    font-size: 16px;
+h1.acc, h1.event, h1.photos {
+    font-size: 40px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black; 
+    text-shadow: 2px 2px 2px black;
+    margin: auto 200px;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(58, 56, 56);
+}
+
+p {
+    font-size: 22px;
     line-height: 2;
     letter-spacing: 1px;
     text-align: center;
+    /* -webkit-text-fill-color: white;*/
+    -webkit-text-stroke-width: .2px;
+
+    -webkit-text-stroke-color: black;  
+    color:white;
+    letter-spacing: .1px;
+    text-shadow: 2px 2px 2px black;
+    text-shadow: 3px 3px 3px black;
+    
+
+}
+
+
+p.acc, p.rsvp {
+    margin: 75px 225px;
+}
+
+/* p.rsvp {
+    margin: 100px 250px; */
+/* } */
+
+h3 {
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.ceremony {
+    margin: auto 200px;
 }
 
 .adj {
@@ -81,27 +128,15 @@ img {
     width: 500px;
 }
 
-.justine, .jonathan {
-    color: black;
-    text-shadow: black;
-    text-align: center;
-}
-
-.justine {
-    float: left;
-    position: relative;
-    width: 550px;
-}
-
-.jonathan {
-    float: right;
-    position: relative;
-    width: 550px;
+h1.joke {
+    margin: 100px 200px 50px 200px;
 }
 
 h2 {
-    font-size: 100px;
+    font-size: 50px;
     margin: 0 auto;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: .5px; 
     text-shadow: 3px 3px 3px black;
 }
 
@@ -110,11 +145,13 @@ h3 {
     width: 600px;
 }
 
-h5 {
+h4 {
     font-size: 40px;
     text-align: left;
-    padding-left: 20px;
+    margin-left: 20px;
+    text-shadow: 2px 2px 2px white;
 }
+
 a {
     text-decoration-line: none;
     color: black;
@@ -124,16 +161,6 @@ a:visited {
     color: black;
 }
 
-
-footer {
-    font-size: 20px;
-    justify-content: center;
-    border: 1px solid black;
-    position: relative;
-
-    margin-top: 100px;
-    clear: both;    
-}
 
 .flight {
     height: 300px;
@@ -170,12 +197,38 @@ img.us {
 }
 
 img.now {
-    width: 375px;
+    width: 350px;
     height: auto;
+    border: 10px solid white;
 }
 
 img.now#img7 {
     width: 700px;
     height: auto;
+    margin-left: -160px;
 }
 
+img#img3.now, img#img6.now {
+    margin-right: 20px;
+}
+
+form {
+    display: inline-block;
+    margin: auto auto;
+}
+input {
+    align-content: center;
+    width: 300px;
+    height: 50px;
+    color: rgb(133, 43, 15);
+    font-size: 25px;
+    border: 1px solid black;
+}
+
+button {
+    width:130px;
+    height:40px;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}

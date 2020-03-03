@@ -6,6 +6,13 @@ html {
     background-size: auto;
 }
 
+body {
+    margin: auto auto;
+    text-align: center;
+    width: 100vw;
+    height: 100vw;
+}
+
 .menu {
     font-size: 25px;
     font-family: Century Schoolbook;
@@ -29,29 +36,9 @@ a.menu {
     align-content: center;
 }
 
-/* .menu {
-    display: inline-block;
-    font-family: 'Arvo', serif;
-    position: relative;
-    width: auto;
-    font-size: 25px;
-    font-family: century;
-    -webkit-text-fill-color: whitesmoke;
-    -webkit-text-stroke-width: .1px;
-    -webkit-text-stroke-color: black; 
-    text-shadow: 2px 2px 2px black;
-    padding-left: 0px;
-} */
-
 ul {
     padding-left: 0;
 
-}
-body {
-    margin: auto auto;
-    text-align: center;
-    width: 100vw;
-    height: 100vw;
 }
 
 h1 {
@@ -74,6 +61,37 @@ h1.acc, h1.event, h1.photos {
     text-decoration-color: rgb(58, 56, 56);
 }
 
+h1.joke {
+    margin: 100px 200px 50px 200px;
+}
+
+h2 {
+    font-size: 50px;
+    margin: 0 auto;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: .5px; 
+    text-shadow: 3px 3px 3px black;
+}
+
+h3 {
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    display: inline-block;
+    width: 600px;
+}
+
+h4 {
+    font-size: 40px;
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: .3px; 
+    -webkit-text-stroke-color: black;
+    text-shadow: 2px 2px 2px black;
+}
+
 p {
     font-size: 22px;
     line-height: 2;
@@ -92,14 +110,13 @@ p.acc, p.rsvp {
     margin: 5% 15%;
 }
 
-/* p.rsvp {
-    margin: 100px 250px; */
-/* } */
+a {
+    text-decoration-line: none;
+    color: black;
+}
 
-h3 {
-    font-size: 30px;
-    color: white;
-    text-shadow: 2px 2px 2px black;
+a:visited {
+    color: black;
 }
 
 .ceremony {
@@ -112,50 +129,6 @@ h3 {
     padding-left: 0;
 }
 
-img {
-    display: grid;
-    margin: 0 auto;
-    width: 40vw;
-}
-
-h1.joke {
-    margin: 100px 200px 50px 200px;
-}
-
-h2 {
-    font-size: 50px;
-    margin: 0 auto;
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: .5px; 
-    text-shadow: 3px 3px 3px black;
-}
-
-h3 {
-    display: inline-block;
-    width: 600px;
-}
-
-h4 {
-    font-size: 40px;
-    text-align: left;
-    margin-left: 20px;
-    color: white;
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke-width: .3px; 
-    -webkit-text-stroke-color: black;
-    text-shadow: 2px 2px 2px black;
-}
-
-a {
-    text-decoration-line: none;
-    color: black;
-}
-
-a:visited {
-    color: black;
-}
-
-
 .flight {
     height: 300px;
     width: 300px;
@@ -165,6 +138,12 @@ a:visited {
     align-content: right;
     background-color: whitesmoke;
     padding: 7px;
+}
+
+img {
+    display: grid;
+    margin: 0 auto;
+    width: 40vw;
 }
 
 .accImg {

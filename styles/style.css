@@ -2,8 +2,8 @@ html {
     font-family: rockwell;
     background-image: url("https://images.pexels.com/photos/132193/pexels-photo-132193.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: auto;
+    background-repeat: stretch;
+    background-size: 100%;
 }
 
 body {
